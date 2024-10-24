@@ -7,7 +7,7 @@ docker run -dit \
   -p "8080:80" \
   -p "443:443" \
   --name gitlab \
-  --hostname 172.17.0.1 \
+  --hostname <seu-ip> \
   -v /storage/docker-homol/deploy/gitlab/data:/var/opt/gitlab \
   -v /storage/docker-homol/deploy/gitlab/logs:/var/log/gitlab \
   -v /storage/docker-homol/deploy/gitlab/config:/etc/gitlab \
